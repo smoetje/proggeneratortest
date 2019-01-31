@@ -7,7 +7,7 @@
             "email": "nicolas.ramoudt@gmail.com"
         }
     ],
-    "minimum-stability": "alpha",
+    "minimum-stability": "dev",
     "require": {
         "revolution/laravel-google-sheets": "^3.2.12"
     },
