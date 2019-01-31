@@ -1,0 +1,27 @@
+{
+    "name": "smoetje/proggenerator",
+    "description": "Programma Generator for Paulusfeesten",
+    "authors": [
+        {
+            "name": "Nicolas Ramoudt",
+            "email": "nicolas.ramoudt@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "revolution/laravel-google-sheets": "^3.2.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Smoetje\\Proggenerator\\": "/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Smoetje\\Proggenerator\\ProggeneratorServiceProvider"
+            ]
+        }
+    }
+}
